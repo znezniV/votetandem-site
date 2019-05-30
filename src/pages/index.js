@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Hero></Hero>
-    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+    <SectionHeader sectionTitle={strings.sectionHeaderConcept}></SectionHeader>
     <RoleHeader roleName="Giver" ></RoleHeader>
     <RoleHeader roleName="Recipient" ></RoleHeader>
     <section>
@@ -53,7 +53,7 @@ const IndexPage = () => (
         <p>{strings.blockDescConfirmation}</p>
       </Block>
     </section>
-    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+    <SectionHeader sectionTitle={strings.sectionHeaderBrowser}></SectionHeader>
     <section>
       <Block>
         <div>
@@ -68,7 +68,7 @@ const IndexPage = () => (
         </ul>
       </Block>
     </section>
-    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+    <SectionHeader sectionTitle={strings.sectionHeaderConcept}></SectionHeader>
 
     <a href="https://app.votetandem.org">Use the App</a>
   </Layout>
