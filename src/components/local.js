@@ -9,9 +9,9 @@ let strings = new LocalizedStrings({
         roleGiver: "The Vote Giver",
         roleRecipient: "The Vote Recipient",
         
-        sectionHeaderConcept: "In Switzerland many inhabitants are excluded from votings, most of whom are foreigners making up 25 % of the population. Votetandem.org enables a direct possibility to vote by meeting up with Swiss people who supply their vote for exchange. The platform is based on blockchain technology for a secure and independent operation.",
-        sectionHeaderBrowser: "In Switzerland many inhabitants are excluded from votings, most of whom are foreigners making up 25 % of the population. Votetandem.org enables a direct possibility to vote by meeting up with Swiss people who supply their vote for exchange. The platform is based on blockchain technology for a secure and independent operation.",
-        sectionHeaderFAQ: "In Switzerland many inhabitants are excluded from votings, most of whom are foreigners making up 25 % of the population. Votetandem.org enables a direct possibility to vote by meeting up with Swiss people who supply their vote for exchange. The platform is based on blockchain technology for a secure and independent operation.",
+        sectionHeaderConcept: "How it works",
+        sectionHeaderBrowser: "Prepare your Browser",
+        sectionHeaderFAQ: "FAQ",
 
         blockHeaderGiveVote: "1a. Register a Vote",
         blockHeaderReceiveVote: "1b. Select a Vote",
