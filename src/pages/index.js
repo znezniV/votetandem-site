@@ -1,20 +1,75 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import strings from "../components/local"
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
+import SectionHeader from "../components/section-header"
+import RoleHeader from "../components/role-header"
+import Block from "../components/block"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>{strings.cottageCheese}</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <Hero></Hero>
+    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+    <RoleHeader roleName="Giver" ></RoleHeader>
+    <RoleHeader roleName="Recipient" ></RoleHeader>
+    <section>
+
+      <Block>
+        <div>
+          <div>video</div>
+          <div>
+            <h3>{strings.blockHeaderGiveVote}</h3>
+            <p>
+              {strings.blockDescGiveVote}
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>video</div>
+          <div>
+            <h3>{strings.blockHeaderReceiveVote}</h3>
+            <p>
+              {strings.blockDescReceiveVote}
+            </p>
+          </div>
+        </div>
+      </Block>
+      <Block>
+        <h3>{strings.blockHeaderMeeting}</h3>
+        <div>
+          illustration
+        </div>
+        <p>{strings.blockDescMeeting}</p>
+      </Block>
+      <Block>
+        <h3>{strings.blockHeaderConformation}</h3>
+        <div>
+          image
+        </div>
+        <p>{strings.blockDescConfirmation}</p>
+      </Block>
+    </section>
+    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+    <section>
+      <Block>
+        <div>
+          image
+        </div>
+        <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+      </Block>
+    </section>
+    <SectionHeader sectionTitle={strings.cottageCheese}></SectionHeader>
+
     <a href="https://app.votetandem.org">Use the App</a>
   </Layout>
 )
