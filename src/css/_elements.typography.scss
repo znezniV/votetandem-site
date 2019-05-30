@@ -8,13 +8,18 @@ span {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: WhyteInktrapRegular, $font-fallback;
     font-weight: normal;
     font-style: normal;
     font-size: rem(22px);
     line-height: rem(34px);
     color: $color-brand;
+}
+
+h3 {
+    font-size: rem(18px);
 }
 
 p,
