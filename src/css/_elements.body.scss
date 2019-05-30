@@ -1,0 +1,12 @@
+body {
+    max-width: $width-page;
+    margin: 0 auto;
+}
+
+::-moz-selection {
+    background: rgba($color-brand, 0.1); 
+}
+
+::selection { 
+    background: rgba($color-brand, 0.1); 
+}

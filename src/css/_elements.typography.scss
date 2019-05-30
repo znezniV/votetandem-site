@@ -1,0 +1,38 @@
+h1,
+p,
+span {
+    font-feature-settings:"kern" 1;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+    font-family: WhyteInktrapRegular, $font-fallback;
+    font-weight: normal;
+    font-style: normal;
+    font-size: rem(22px);
+    line-height: rem(34px);
+    color: $color-brand;
+}
+
+p,
+li {
+    text-align: left;
+    color: $color-brand;
+    font-weight: normal;
+    font-size: rem(15px);
+    line-height: rem(20px);
+    font-family: MogelsbergGroteskRegular, $font-fallback;
+}
+
+span,
+label {
+    font-size: rem(11px);
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    font-style: normal;
+    color: $color-brand;
+    font-family: MogelsbergGroteskRegular, $font-fallback;
+}
