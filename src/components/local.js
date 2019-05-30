@@ -2,7 +2,6 @@ import LocalizedStrings from 'react-localization';
 
 let strings = new LocalizedStrings({
     en:{
-        cottageCheese:"Cottage Cheese",
         headerIntro: "A platform that enables politically excluded people in Switzerand to vote — Simple to use, social, and meant to persist.",
         heroTitle: "Including All People in Politics",
         heroText: "In Switzerland many inhabitants are excluded from votings, most of whom are foreigners making up 25 % of the population. Votetandem.org enables a direct possibility to vote by meeting up with Swiss people who supply their vote for exchange. The platform is based on blockchain technology for a secure and independent operation.",
@@ -28,7 +27,6 @@ let strings = new LocalizedStrings({
         footerContribute: "Do you want to contribute?"
     },
     de: {
-        cottageCheese:"Hüttechäs",
     }
 });
 
