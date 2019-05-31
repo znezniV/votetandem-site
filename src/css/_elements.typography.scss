@@ -1,6 +1,4 @@
-h1,
-p,
-span {
+* {
     font-feature-settings:"kern" 1;
     font-kerning: normal;
     -webkit-font-smoothing: antialiased;
@@ -40,4 +38,9 @@ label {
     font-style: normal;
     color: $color-brand;
     font-family: MogelsbergGroteskRegular, $font-fallback;
+}
+
+strong {
+    font-family: MogelsbergGroteskMedium, $font-fallback;
+    font-weight: normal;
 }

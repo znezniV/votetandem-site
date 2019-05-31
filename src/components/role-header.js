@@ -1,9 +1,15 @@
 import PropTypes from "prop-types"
 import React from "react"
+import strings from "../components/local"
 
 const RoleHeader = ({ roleName }) => (
-    <div>
-        <p>{ roleName }</p>
+    <div className="role-header">
+        <div className="role-header__item">
+            {strings.roleGiver}
+        </div>
+        <div className="role-header__item">
+            {strings.roleRecipient}
+        </div>
     </div>
 )
 

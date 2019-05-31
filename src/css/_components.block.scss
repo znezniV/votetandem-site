@@ -1,0 +1,109 @@
+.block {
+    border: $border;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -$border-width;
+    
+    &__desc {
+        padding: $padding-base;
+        width: 25%;
+        margin: 0;
+    }
+    
+    &__media {
+        border: $border;
+        width: 50%;
+        margin-top: -$border-width;
+        margin-bottom: -$border-width;
+    }
+    
+    ul {
+        margin: 0 $padding-base 0 0;
+    }
+
+    &--two {
+        flex-direction: row;
+
+        .block { // use only for name-nesting
+            &__item {
+                width: 50%;
+            }
+            
+            &__desc {
+                width: auto;
+
+                h3 {
+                    margin: -11px 0 5px 0;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            &__media {
+                width: auto;
+                margin-left: -$border-width;
+                border-right: 0;
+            }
+        }
+
+        .block__item + .block__item {
+            border-left: $border;
+        }
+    }
+}
+
+@media screen and ($media-md) {
+    .block {
+        flex-direction: column;
+        
+        &__desc {
+            order: 1;
+            padding: $padding-base / 2; 
+            width: auto;
+            
+            + .block__desc {
+                background: tomato;
+            } 
+        }
+        
+        &__media {
+            order: 0;
+            width: auto;
+            border-width: $border-width 0;
+        }
+        
+        ul {
+            padding-right: $padding-base / 2;
+        }
+        
+        &--two {
+            .block {
+                &__item {
+                    width: 75%;
+                    border-right: $border;
+                    border-bottom: $border;
+                    margin-bottom: -$border-width;
+                    
+                    &--right {
+                        align-self: flex-end;
+                        border-left: $border;
+                        border-right: 0;
+                    }
+                }
+            }
+            
+            .block__item + .block__item {
+                margin-top: $border-width;
+            }
+        }
+        
+        &--faq {
+            ul {
+                margin: 0 ($padding-base / 2) 0 0;
+            }
+        }
+        
+    } 
+}

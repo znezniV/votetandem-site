@@ -1,0 +1,32 @@
+.role-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-bottom: -$border-width;
+
+    &__item {
+        font-family: WhyteInktrapRegular, $font-fallback;
+        font-weight: normal;
+        font-style: normal;
+        font-size: rem(22px);
+        line-height: rem(34px);
+        color: $color-brand;
+        border: $border;
+        padding: ($padding-base / 2) $padding-base;
+        width: 50%;
+        
+        &:first-child {
+            border-right: 0;
+        }
+    }
+}
+
+@media screen and ($media-md) {
+    .role-header {
+        
+        &__item {
+            padding: ($padding-base / 4) ($padding-base / 2) ($padding-base / 3) ($padding-base / 2);
+            line-height: 1.1;
+        }
+    }
+}

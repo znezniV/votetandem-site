@@ -1,0 +1,29 @@
+.hero {
+    border: $border;
+    padding: $padding-base;
+    margin-bottom: -$border-width;
+
+    &__title {
+        margin: -10px 0;
+    }
+
+    &__text {
+        margin: 17px -1px -5px -1px;
+    }
+
+    &__text-image {
+        margin-right: 0.5em;
+        float: left;
+        margin-top: 4px;
+    }
+}
+
+@media screen and ($media-md) {
+    .hero {
+        padding: $padding-base / 2;
+    }
+
+    &__text {
+        margin: 7px -1px -5px -1px;
+    }
+}

@@ -1,0 +1,48 @@
+.header {
+    border: $border;
+    display: flex;
+    margin-bottom: -$border-width;
+
+    &__title {
+        width: (100% / 4);
+        border-right: $border;
+        padding: $padding-base;
+        margin: 0;
+        margin-top: -11px;
+    }
+
+    &__text {
+        padding: $padding-base;
+        margin: -4px -2px;
+
+    }
+
+    &__link {
+        align-self: flex-end;
+        margin-right: -$border-width;
+        margin-bottom: -$border-width;
+    } 
+}
+
+@media screen and ($media-md) {
+
+    .header {
+        flex-direction: column;
+
+        &__title {
+            width: auto;
+            border-right: 0;
+            padding: $padding-base / 2;
+            padding-bottom: $padding-base / 8;
+        }
+
+        &__text {
+            padding: $padding-base / 2;
+            padding-top: $padding-base / 8;
+        }
+
+        &__link {
+            display: none;
+        } 
+    }
+}

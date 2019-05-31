@@ -20,3 +20,18 @@ ul {
         }
     }
 }
+
+@media screen and ($media-md) {
+    ul {
+        margin: 7px 0;
+
+        li {
+            padding-left: $padding-base;
+
+            &::before {
+                width: $padding-base / 2;
+            }
+        }
+    }
+
+}

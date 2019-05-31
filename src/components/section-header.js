@@ -2,8 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const SectionHeader = ( { sectionTitle } ) => (
-    <div>
-        <h2>{sectionTitle}</h2>
+    <div className="section-header">
+        <h2 className="section-header__title">{sectionTitle}</h2>
     </div>
 )
 

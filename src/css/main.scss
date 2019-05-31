@@ -3,6 +3,7 @@
 @import "settings.border";
 @import "settings.fonts";
 @import "settings.basefontsize";
+@import "settings.media-queries";
 
 @import "tools.mixins";
 
@@ -15,3 +16,8 @@
 @import "elements.lists";
 
 @import "components.button";
+@import "components.header";
+@import "components.hero";
+@import "components.section-header";
+@import "components.role-header";
+@import "components.block";

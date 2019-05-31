@@ -1,0 +1,16 @@
+.section-header {
+    border: $border;
+    padding: $padding-base;
+    margin-bottom: -$border-width;
+
+    &__title {
+        margin: -10px 0;
+    }
+}
+
+@media screen and ($media-md) {
+    .section-header {
+        padding: ($padding-base / 4) ($padding-base / 2) ($padding-base / 3) ($padding-base / 2);
+        line-height: 1.1;
+    }
+}

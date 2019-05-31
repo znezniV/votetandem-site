@@ -9,67 +9,70 @@ import Hero from "../components/hero"
 import SectionHeader from "../components/section-header"
 import RoleHeader from "../components/role-header"
 import Block from "../components/block"
+import BlockTwo from "../components/block-two"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Hero></Hero>
-    <SectionHeader sectionTitle={strings.sectionHeaderConcept}></SectionHeader>
-    <RoleHeader roleName="Giver" ></RoleHeader>
-    <RoleHeader roleName="Recipient" ></RoleHeader>
+    <Hero />
+    <SectionHeader sectionTitle={strings.sectionHeaderConcept}/>
+    <RoleHeader />
     <section>
-
-      <Block>
-        <div>
-          <div>video</div>
-          <div>
+      <BlockTwo>
+        <div className="block__item">
+          <div className="block__media">video</div>
+          <div className="block__desc">
             <h3>{strings.blockHeaderGiveVote}</h3>
             <p>
               {strings.blockDescGiveVote}
             </p>
           </div>
         </div>
-        <div>
-          <div>video</div>
-          <div>
+        <div className="block__item block__item--right">
+          <div className="block__media">video</div>
+          <div className="block__desc">
             <h3>{strings.blockHeaderReceiveVote}</h3>
             <p>
               {strings.blockDescReceiveVote}
             </p>
           </div>
         </div>
-      </Block>
+      </BlockTwo>
       <Block>
-        <h3>{strings.blockHeaderMeeting}</h3>
-        <div>
+        <h3 className="block__desc">{strings.blockHeaderMeeting}</h3>
+        <div className="block__media">
           illustration
         </div>
-        <p>{strings.blockDescMeeting}</p>
+        <p className="block__desc">{strings.blockDescMeeting}</p>
       </Block>
       <Block>
-        <h3>{strings.blockHeaderConformation}</h3>
-        <div>
+        <h3 className="block__desc">{strings.blockHeaderConformation}</h3>
+        <div className="block__media">
           image
         </div>
-        <p>{strings.blockDescConfirmation}</p>
+        <p className="block__desc">{strings.blockDescConfirmation}</p>
       </Block>
     </section>
-    <SectionHeader sectionTitle={strings.sectionHeaderBrowser}></SectionHeader>
+    <SectionHeader sectionTitle={strings.sectionHeaderBrowser} />
     <section>
       <Block>
-        <div>
+        <h3 className="block__desc"></h3>
+        <div className="block__media">
           image
         </div>
-        <ul>
-          <li>List Item</li>
-          <li>List Item</li>
-          <li>List Item</li>
-          <li>List Item</li>
-          <li>List Item</li>
-        </ul>
+        <ReactMarkdown source={strings.blockDescBrowser} />
+        {/* <ul>
+          <li>{strings.blockDescBrowserStep1}</li>
+          <li>{strings.blockDescBrowserStep2}</li>
+          <li>{strings.blockDescBrowserStep3}</li>
+          <li>{strings.blockDescBrowserStep4}</li>
+        </ul> */}
       </Block>
     </section>
-    <SectionHeader sectionTitle={strings.sectionHeaderConcept}></SectionHeader>
+    <SectionHeader sectionTitle={strings.sectionHeaderFAQ} />
+    <div className="block block--faq">
+      <ReactMarkdown source={strings.faq} />
+    </div>
 
     <a href="https://app.votetandem.org">Use the App</a>
   </Layout>
