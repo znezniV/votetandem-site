@@ -29,9 +29,14 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           <main>{children}</main>
-          <footer>
-            hello@votetandem.org, Twitter: 
-            <a href="https://twitter.com/votetandem">@votetandem</a>
+          <footer className="footer">
+            <p>
+              hello@votetandem.org
+            </p>
+            <p>
+              Twitter:
+              <a href="https://twitter.com/votetandem">@votetandem</a>
+            </p>
           </footer>
         </div>
       </>

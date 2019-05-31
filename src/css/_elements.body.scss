@@ -1,6 +1,6 @@
 body {
     max-width: $width-page;
-    margin: 0 auto;
+    margin: ($padding-base * 2) auto;
 }
 
 ::-moz-selection {
@@ -9,4 +9,10 @@ body {
 
 ::selection { 
     background: rgba($color-brand, 0.1); 
+}
+
+@media screen and ($media-md) {
+    body {
+        margin: 0 auto ($padding-base * 2) auto;
+    }
 }

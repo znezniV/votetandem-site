@@ -2,6 +2,7 @@
     border: $border;
     display: flex;
     margin-bottom: -$border-width;
+    overflow: hidden;
 
     &__title {
         width: (100% / 4);

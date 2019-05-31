@@ -8,6 +8,10 @@ ul {
         padding-left: $padding-base * 2 - 1px;
         position: relative;
 
+        p {
+            margin: 0;
+        }
+
         &::before {
             content: "";
             position: absolute;
