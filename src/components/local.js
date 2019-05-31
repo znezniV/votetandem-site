@@ -78,7 +78,7 @@ let strings = new LocalizedStrings({
       blockDescReceiveVote: "Il ricevente del voto seleziona uno dei voti elencati sulla piattaforma, fissando l'incontro.",
       blockDescMeeting: "Entrambi s'incontrano nel luogo stabilito, discutono e il donatore del voto alla fine compila la scheda elettorale.",
       blockDescConfirmation: "Entrambi confermano sulla piattaforma, dopo l'incontro avvenuto, che la scheda di voto è stata scambiata.",
-      blockDescBrowser: "IInstalla l'estensione del browser MetaMask. Annota la seedphrase. Passa al Ropsten Network. Ricevi denaro da test su https://faucet.metamask.io/ e aspetta qualche minuto.",
+      blockDescBrowser: "Installa l'estensione del browser MetaMask. Annota la seedphrase. Passa al Ropsten Network. Ricevi denaro da test su https://faucet.metamask.io/ e aspetta qualche minuto.",
 
       footerContribute: "Vuoi contribuire?"
     },
