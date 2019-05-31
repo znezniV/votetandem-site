@@ -14,7 +14,7 @@ let strings = new LocalizedStrings({
         sectionHeaderConcept: "How it works",
         sectionHeaderBrowser: "Prepare your Browser",
         sectionHeaderFAQ: "FAQ",
-
+ 
         blockHeaderGiveVote: "1a. Register a Vote",
         blockHeaderReceiveVote: "1b. Select a Vote",
         blockHeaderMeeting: "2. Meeting",
@@ -24,7 +24,7 @@ let strings = new LocalizedStrings({
         blockDescReceiveVote: "The Vote Recipient selects one of the listed votes on the plattform, fixing the meeting.",
         blockDescMeeting: "Both meet at the established location, discuss, and the Vote Giver finally fills out the ballot paper.",
         blockDescConfirmation: "Both confirm on the platform after meeting up that the vote was exchanged.",
-        blockDescBrowser: "- Install the browser extension MetaMask. \n \n - Write down your seedphrase. \n \n - Switch to the Ropsten Network. \n \n - Get test money on https://faucet.metamask.io/ and wait a few minutes.",
+        blockDescBrowser: "- Install the browser extension MetaMask. \n \n - Write down your seedphrase. \n \n - Switch to the Ropsten Network. \n \n - Get test money on  faucet.metamask.io and wait a few minutes.",
 
         footerContribute: "Do you want to contribute?",
 
@@ -53,7 +53,7 @@ let strings = new LocalizedStrings({
       blockDescReceiveVote: "Die stimmsuchende Person wählt eine der aufgeführten Stimmen auf der Plattform aus und fixiert somit das Treffen.",
       blockDescMeeting: "Beide treffen sich am vereinbarten Ort, diskutieren, und die stimmberechtigte Person füllt schließlich den Stimmzettel aus.",
       blockDescConfirmation: "Beide bestätigen nach dem Treffen, auf der Plattform, dass der Stimmzettel ausgetauscht wurde.",
-      blockDescBrowser: "- Installiere die Browsererweiterung MetaMask. \n \n - Schreibe deine Seedphrase auf. \n \n - Wechsle zum Ropsten Network. \n \n - Hol dir Testgeld auf https://faucet.metamask.io/ und warte ein paar Minuten.",
+      blockDescBrowser: "- Installiere die Browsererweiterung MetaMask. \n \n - Schreibe deine Seedphrase auf. \n \n - Wechsle zum Ropsten Network. \n \n - Hol dir Testgeld auf  faucet.metamask.io und warte ein paar Minuten.",
 
       footerContribute: "Willst du deinen Teil beitragen?"
     },
@@ -80,7 +80,7 @@ let strings = new LocalizedStrings({
       blockDescReceiveVote: "Il ricevente del voto seleziona uno dei voti elencati sulla piattaforma, fissando l'incontro.",
       blockDescMeeting: "Entrambi s'incontrano nel luogo stabilito, discutono e il donatore del voto alla fine compila la scheda elettorale.",
       blockDescConfirmation: "Entrambi confermano sulla piattaforma, dopo l'incontro avvenuto, che la scheda di voto è stata scambiata.",
-      blockDescBrowser: "- Installa l'estensione del browser MetaMask. \n \n - Annota la seedphrase. \n \n - Passa al Ropsten Network. \n \n - Ricevi denaro da test su https://faucet.metamask.io/ e aspetta qualche minuto.",
+      blockDescBrowser: "- Installa l'estensione del browser MetaMask. \n \n - Annota la seedphrase. \n \n - Passa al Ropsten Network. \n \n - Ricevi denaro da test su  faucet.metamask.io e aspetta qualche minuto.",
 
       footerContribute: "Vuoi contribuire?"
     },
@@ -107,7 +107,7 @@ let strings = new LocalizedStrings({
         blockDescReceiveVote: "Le receveur de vote cherche un des bulletins de vote listés sur la plate-forme et fixe ainsi la rencontre.",
         blockDescMeeting: "Tous deux se réunissent à l'endroit établi, discutent et le donneur de vote remplit finalement le bulletin de vote.",
         blockDescConfirmation: "Tous deux confirment sur la plate-forme après s'être rencontrés que le vote a été échangé.",
-        blockDescBrowser: "- Installe l'extension du navigateur MetaMask. \n \n - Note ton seedphrase. \n \n - Passe au Ropsten Network. \n \n - Obtiens l'argent du test sur https://faucet.metamask.io/ et attends quelques minutes.",
+        blockDescBrowser: "- Installe l'extension du navigateur MetaMask. \n \n - Note ton seedphrase. \n \n - Passe au Ropsten Network. \n \n - Obtiens l'argent du test sur  faucet.metamask.io et attends quelques minutes.",
 
         footerContribute: "Veux-tu contribuer?"
     },
