@@ -32,7 +32,8 @@
             border: 0;
         }
 
-        video {
+        video,
+        img {
             width: 100%;
             float: left;
         }
@@ -119,6 +120,10 @@
                         align-self: flex-end;
                         border-left: $border;
                         border-right: 0;
+
+                        .block__media {
+                            border-left: $border;
+                        }
                     }
                 }
             }

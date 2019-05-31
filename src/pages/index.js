@@ -12,8 +12,14 @@ import Block from "../components/block"
 import BlockTwo from "../components/block-two"
 import Video from "../components/video"
 
-import VideoSrc1 from "../video/ScreencastTest.mp4"
+import VideoGiver from "../video/giver.mp4"
+import VideoRecipient from "../video/recipient.mp4"
+import VideoMetamask from "../video/metamask.mp4"
+import VideoGiverWebM from "../video/giver.webm"
+import VideoRecipientWebM from "../video/recipient.webm"
+import VideoMetamaskWebM from "../video/metamask.webm"
 import BallotIllu from "../images/ballot.svg"
+import ImageConfirm from "../images/confirm.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +31,7 @@ const IndexPage = () => (
       <BlockTwo>
         <div className="block__item">
           <div className="block__media">
-            <Video videoSrc={VideoSrc1} />
+            <Video videoSrcMP4={VideoGiver} videoSrcWebM={VideoGiverWebM} />
           </div>
           <div className="block__desc">
             <h3>{strings.blockHeaderGiveVote}</h3>
@@ -36,7 +42,7 @@ const IndexPage = () => (
         </div>
         <div className="block__item block__item--right">
           <div className="block__media">
-            <Video videoSrc={VideoSrc1} />
+            <Video videoSrcMP4={VideoRecipient} videoSrcWebM={VideoRecipientWebM} />
           </div>
           <div className="block__desc">
             <h3>{strings.blockHeaderReceiveVote}</h3>
@@ -56,7 +62,7 @@ const IndexPage = () => (
       <Block>
         <h3 className="block__desc">{strings.blockHeaderConformation}</h3>
         <div className="block__media">
-          image
+          <img src={ImageConfirm} alt=""/> 
         </div>
         <p className="block__desc">{strings.blockDescConfirmation}</p>
       </Block>
@@ -66,7 +72,7 @@ const IndexPage = () => (
       <Block>
         <h3 className="block__desc"></h3>
         <div className="block__media">
-          image
+          <Video videoSrcMP4={VideoMetamask} videoSrcWebM={VideoMetamaskWebM} />
         </div>
         <ReactMarkdown className="block__desc" source={strings.blockDescBrowser} />
       </Block>

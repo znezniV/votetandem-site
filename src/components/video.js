@@ -1,19 +1,21 @@
 import PropTypes from "prop-types"
 import React from "react"
-import strings from "../components/local"
 
-const Header = ({ videoSrc }) => (
+const Header = ({ videoSrcMP4, videoSrcWebM }) => (
   <video autoPlay muted playsInline loop>
-      <source src={videoSrc} />
+      <source src={videoSrcWebM} type="video/webm" />
+      <source src={videoSrcMP4} type="video/mp4" />
   </video>
 )
 
 Header.propTypes = {
-  videoSrc: PropTypes.string,
+  videoSrcMP4: PropTypes.string,
+  videoSrcWebM: PropTypes.string,
 }
 
 Header.defaultProps = {
-  videoSrc: ``,
+  videoSrcMP4: ``,
+  videoSrcWebM: ``,
 }
 
 export default Header
