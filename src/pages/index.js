@@ -1,4 +1,5 @@
 import React from "react"
+import ReactMarkdown from 'react-markdown'
 
 import strings from "../components/local"
 import Layout from "../components/layout"
