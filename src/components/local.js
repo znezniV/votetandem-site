@@ -33,7 +33,7 @@ let strings = new LocalizedStrings({
     de: {
       headerIntro: "Eine Plattform, die es politisch ausgeschlossenen Menschen in der Schweiz ermöglicht, zu wählen – Einfach zu bedienen, sozial und dauerhaft.",
       heroTitle: "Alle Menschen in Politik einbeziehen",
-      heroText: "In der Schweiz sind viele Personen von der Teilnahme an Abstimmungen ausgeschlossen, die meisten davon sind Ausländer mit einem Anteil von 25 % der Bevölkerung. Votetandem.org ermöglicht eine direkte Stimmabgabe durch Treffen mit Schweizerinnen und Schweizern, die ihren Wahlzettel für den Austausch zur Verfügung stellen. Die Plattform basiert auf Blockchain-Technologie für einen sicheren und unabhängigen Betrieb.",
+      heroText: "In der Schweiz sind viele Personen von der Teilnahme an Abstimmungen ausgeschlossen, die meisten davon sind Ausländer mit einem Bevölkerungsanteil von über 25 %. Votetandem.org ermöglicht eine direkte Stimmabgabe durch Treffen mit Schweizerinnen und Schweizern, die ihren Wahlzettel für den Austausch zur Verfügung stellen. Die Plattform basiert auf Blockchain-Technologie für einen sicheren und unabhängigen Betrieb.",
 
       roleGiver: "Stimmgebende Person",
       roleRecipient: "Stimmsuchende Person",
