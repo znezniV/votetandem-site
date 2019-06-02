@@ -20,10 +20,10 @@ let strings = new LocalizedStrings({
         blockHeaderMeeting: "2. Meeting",
         blockHeaderConformation: "3. Confirmation",
 
-        blockDescGiveVote: "The Vote Giver registers their vote with a location, time, and date on the platform, making it available.",
+        blockDescGiveVote: "The Vote Giver registers their vote with a location, date, and time on the platform, making it available.",
         blockDescReceiveVote: "The Vote Recipient selects one of the listed votes on the platform, fixing the meeting.",
-        blockDescMeeting: "Both meet at the established location, discuss, and the Vote Giver finally fills out the ballot paper.",
-        blockDescConfirmation: "Both confirm on the platform after meeting up that the vote was exchanged.",
+        blockDescMeeting: "Both meet at the established location, discuss, and the Vote Giver fills out the ballot paper.",
+        blockDescConfirmation: "Both confirm on the platform that the vote was exchanged.",
         blockDescBrowser: "- Install the browser extension MetaMask. \n \n - Write down your seedphrase. \n \n - Switch to the Ropsten Network. \n \n - Get test money on  faucet.metamask.io and wait a few minutes.",
 
         footerContribute: "Do you want to contribute?",
@@ -31,7 +31,7 @@ let strings = new LocalizedStrings({
         faq: "- **Who should fill out the ballot paper?** \n \n The ballot paper has to be filled out by the Swiss Vote Giver.\n - **Can I exchange votes several times?** \n \n No, the platform locks your account after the meeting, and only re-activates it four weeks before the next voting/election.\n - **Who is actually willing to sign up?** \n \n The platform is for people who have the urge to have their voice heard, but also for anyone who is charitable or simply interested to supply their vote and help people in need.\n - **What should I discuss during the meeting?** \n \n When the meeting is fixed, you can download a discussion guideline onto you digital calender. It’s meant to help you during the meeting.\n - **Why is the platform based on blockchain technology?** \n \n Blockchain technology allows votetandem.org to operate independantly. This means that no one can take it down or modify or control the source code and data. In addition, votetandem.org does not rely on private infrastructure, such as centralized servers. \n - **Why do I need the browser extension MetaMask?** \n \n This browser extension allows you to interact and connect with the smart contract, which is the code of the platform running on the blockchain. \n - **What is a seed phrase?** \n \n With your seed phrase you can log into votetandem.org with MetaMask from anywhere. Think of it as a password, keep it safe and write it on a piece of paper! \n - **Why do I need to switch to the Ropsten Network?** \n \n This is a network, on which you do not need to pay with actual money, because everytime you interact with the smart contract you pay around CHF 0.05.\n - **What is test money and why do I need it?** \n \n This is money you can spend on the test network. It’s free and it enables you to interact with votetandem.org on the blockchain."
     },
     de: {
-      headerIntro: "Eine Plattform, die es politisch ausgeschlossenen Menschen in der Schweiz ermöglicht, zu wählen – Simpel zu bedienen, sozial und beständig.",
+      headerIntro: "Eine Plattform, die es politisch ausgeschlossenen Menschen in der Schweiz ermöglicht, zu wählen – Einfach zu bedienen, sozial und beständig.",
       heroTitle: "Alle Menschen in Politik einbeziehen",
       heroText: "In der Schweiz sind viele Personen von der Teilnahme an Abstimmungen ausgeschlossen, die meisten davon sind Ausländer mit einem Bevölkerungsanteil von über 25 %. Votetandem.org ermöglicht eine direkte Stimmabgabe durch Treffen mit Schweizerinnen und Schweizern, die ihren Wahlzettel für den Austausch zur Verfügung stellen. Die Plattform basiert auf Blockchain-Technologie für einen sicheren und unabhängigen Betrieb.",
 
@@ -49,10 +49,10 @@ let strings = new LocalizedStrings({
       blockHeaderMeeting: "2. Treffen",
       blockHeaderConformation: "3. Bestätigung",
 
-      blockDescGiveVote: "Die stimmgebende Person registriert ihre Stimme und gibt Ort, Uhrzeit und Datum auf der Plattform an, um sie verfügbar zu machen.",
-      blockDescReceiveVote: "Die stimmsuchende Person wählt eine der aufgeführten Stimmen auf der Plattform aus und fixiert somit das Treffen.",
-      blockDescMeeting: "Beide treffen sich am vereinbarten Ort, diskutieren, und die stimmberechtigte Person füllt schließlich den Stimmzettel aus.",
-      blockDescConfirmation: "Beide bestätigen nach dem Treffen, auf der Plattform, dass der Stimmzettel ausgetauscht wurde.",
+      blockDescGiveVote: "Die stimmgebende Person registriert ihren Stimmzettel und gibt Ort, Datum und Uhrzeit auf der Plattform an, um ihn verfügbar zu machen.",
+      blockDescReceiveVote: "Die stimmsuchende Person wählt eine der gelisteten Stimmen aus und fixiert somit das Treffen.",
+      blockDescMeeting: "Beide treffen sich am vereinbarten Ort, diskutieren und die stimmberechtigte Person füllt anschliessend den Stimmzettel aus.",
+      blockDescConfirmation: "Beide bestätigen auf der Plattform, dass der Stimmzettel ausgetauscht wurde.  ",
       blockDescBrowser: "- Installiere die Browsererweiterung MetaMask. \n \n - Schreibe deine Seedphrase auf. \n \n - Wechsle zum Ropsten Network. \n \n - Hol dir Testgeld auf  faucet.metamask.io und warte ein paar Minuten.",
 
       footerContribute: "Willst du deinen Teil beitragen?",
