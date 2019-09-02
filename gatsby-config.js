@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Votetandem`,
+    title: `votetandem.org`,
     description: `A platform that enables politically excluded people in Switzerand to vote — Simple to use, social, and meant to persist.`,
     author: `@votetandem`,
   },
